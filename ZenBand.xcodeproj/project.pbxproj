@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		94D55CE92063399C00875475 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D55CE82063399C00875475 /* AppDelegate.swift */; };
+		94D55CEB2063399C00875475 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D55CEA2063399C00875475 /* FirstViewController.swift */; };
+		94D55CED2063399C00875475 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D55CEC2063399C00875475 /* SecondViewController.swift */; };
+		94D55CF02063399C00875475 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94D55CEE2063399C00875475 /* Main.storyboard */; };
+		94D55CF22063399C00875475 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94D55CF12063399C00875475 /* Assets.xcassets */; };
+		94D55CF52063399C00875475 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94D55CF32063399C00875475 /* LaunchScreen.storyboard */; };
+		94D55D002063399C00875475 /* ZenBandTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D55CFF2063399C00875475 /* ZenBandTests.swift */; };
+		94D55D0B2063399C00875475 /* ZenBandUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D55D0A2063399C00875475 /* ZenBandUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		94D55CFC2063399C00875475 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94D55CDD2063399C00875475 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94D55CE42063399C00875475;
+			remoteInfo = ZenBand;
+		};
+		94D55D072063399C00875475 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94D55CDD2063399C00875475 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94D55CE42063399C00875475;
+			remoteInfo = ZenBand;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		94D55CE52063399C00875475 /* ZenBand.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZenBand.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		94D55CE82063399C00875475 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		94D55CEA2063399C00875475 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		94D55CEC2063399C00875475 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		94D55CEF2063399C00875475 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		94D55CF12063399C00875475 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		94D55CF42063399C00875475 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		94D55CF62063399C00875475 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94D55CFB2063399C00875475 /* ZenBandTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZenBandTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		94D55CFF2063399C00875475 /* ZenBandTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZenBandTests.swift; sourceTree = "<group>"; };
+		94D55D012063399C00875475 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94D55D062063399C00875475 /* ZenBandUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZenBandUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		94D55D0A2063399C00875475 /* ZenBandUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZenBandUITests.swift; sourceTree = "<group>"; };
+		94D55D0C2063399C00875475 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94D55CE22063399C00875475 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94D55CF82063399C00875475 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94D55D032063399C00875475 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		94D55CDC2063399C00875475 = {
+			isa = PBXGroup;
+			children = (
+				94D55CE72063399C00875475 /* ZenBand */,
+				94D55CFE2063399C00875475 /* ZenBandTests */,
+				94D55D092063399C00875475 /* ZenBandUITests */,
+				94D55CE62063399C00875475 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		94D55CE62063399C00875475 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94D55CE52063399C00875475 /* ZenBand.app */,
+				94D55CFB2063399C00875475 /* ZenBandTests.xctest */,
+				94D55D062063399C00875475 /* ZenBandUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94D55CE72063399C00875475 /* ZenBand */ = {
+			isa = PBXGroup;
+			children = (
+				94D55CE82063399C00875475 /* AppDelegate.swift */,
+				94D55CEA2063399C00875475 /* FirstViewController.swift */,
+				94D55CEC2063399C00875475 /* SecondViewController.swift */,
+				94D55CEE2063399C00875475 /* Main.storyboard */,
+				94D55CF12063399C00875475 /* Assets.xcassets */,
+				94D55CF32063399C00875475 /* LaunchScreen.storyboard */,
+				94D55CF62063399C00875475 /* Info.plist */,
+			);
+			path = ZenBand;
+			sourceTree = "<group>";
+		};
+		94D55CFE2063399C00875475 /* ZenBandTests */ = {
+			isa = PBXGroup;
+			children = (
+				94D55CFF2063399C00875475 /* ZenBandTests.swift */,
+				94D55D012063399C00875475 /* Info.plist */,
+			);
+			path = ZenBandTests;
+			sourceTree = "<group>";
+		};
+		94D55D092063399C00875475 /* ZenBandUITests */ = {
+			isa = PBXGroup;
+			children = (
+				94D55D0A2063399C00875475 /* ZenBandUITests.swift */,
+				94D55D0C2063399C00875475 /* Info.plist */,
+			);
+			path = ZenBandUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		94D55CE42063399C00875475 /* ZenBand */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94D55D0F2063399C00875475 /* Build configuration list for PBXNativeTarget "ZenBand" */;
+			buildPhases = (
+				94D55CE12063399C00875475 /* Sources */,
+				94D55CE22063399C00875475 /* Frameworks */,
+				94D55CE32063399C00875475 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZenBand;
+			productName = ZenBand;
+			productReference = 94D55CE52063399C00875475 /* ZenBand.app */;
+			productType = "com.apple.product-type.application";
+		};
+		94D55CFA2063399C00875475 /* ZenBandTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94D55D122063399C00875475 /* Build configuration list for PBXNativeTarget "ZenBandTests" */;
+			buildPhases = (
+				94D55CF72063399C00875475 /* Sources */,
+				94D55CF82063399C00875475 /* Frameworks */,
+				94D55CF92063399C00875475 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94D55CFD2063399C00875475 /* PBXTargetDependency */,
+			);
+			name = ZenBandTests;
+			productName = ZenBandTests;
+			productReference = 94D55CFB2063399C00875475 /* ZenBandTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		94D55D052063399C00875475 /* ZenBandUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94D55D152063399C00875475 /* Build configuration list for PBXNativeTarget "ZenBandUITests" */;
+			buildPhases = (
+				94D55D022063399C00875475 /* Sources */,
+				94D55D032063399C00875475 /* Frameworks */,
+				94D55D042063399C00875475 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94D55D082063399C00875475 /* PBXTargetDependency */,
+			);
+			name = ZenBandUITests;
+			productName = ZenBandUITests;
+			productReference = 94D55D062063399C00875475 /* ZenBandUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94D55CDD2063399C00875475 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Capstone Project";
+				TargetAttributes = {
+					94D55CE42063399C00875475 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					94D55CFA2063399C00875475 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 94D55CE42063399C00875475;
+					};
+					94D55D052063399C00875475 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 94D55CE42063399C00875475;
+					};
+				};
+			};
+			buildConfigurationList = 94D55CE02063399C00875475 /* Build configuration list for PBXProject "ZenBand" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 94D55CDC2063399C00875475;
+			productRefGroup = 94D55CE62063399C00875475 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94D55CE42063399C00875475 /* ZenBand */,
+				94D55CFA2063399C00875475 /* ZenBandTests */,
+				94D55D052063399C00875475 /* ZenBandUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		94D55CE32063399C00875475 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94D55CF52063399C00875475 /* LaunchScreen.storyboard in Resources */,
+				94D55CF22063399C00875475 /* Assets.xcassets in Resources */,
+				94D55CF02063399C00875475 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94D55CF92063399C00875475 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94D55D042063399C00875475 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94D55CE12063399C00875475 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94D55CED2063399C00875475 /* SecondViewController.swift in Sources */,
+				94D55CE92063399C00875475 /* AppDelegate.swift in Sources */,
+				94D55CEB2063399C00875475 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94D55CF72063399C00875475 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94D55D002063399C00875475 /* ZenBandTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94D55D022063399C00875475 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94D55D0B2063399C00875475 /* ZenBandUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		94D55CFD2063399C00875475 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94D55CE42063399C00875475 /* ZenBand */;
+			targetProxy = 94D55CFC2063399C00875475 /* PBXContainerItemProxy */;
+		};
+		94D55D082063399C00875475 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94D55CE42063399C00875475 /* ZenBand */;
+			targetProxy = 94D55D072063399C00875475 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		94D55CEE2063399C00875475 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94D55CEF2063399C00875475 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		94D55CF32063399C00875475 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94D55CF42063399C00875475 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		94D55D0D2063399C00875475 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		94D55D0E2063399C00875475 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		94D55D102063399C00875475 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 33PV6JQ9EX;
+				INFOPLIST_FILE = ZenBand/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Raza.ZenBand;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		94D55D112063399C00875475 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 33PV6JQ9EX;
+				INFOPLIST_FILE = ZenBand/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Raza.ZenBand;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		94D55D132063399C00875475 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 33PV6JQ9EX;
+				INFOPLIST_FILE = ZenBandTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Raza.ZenBandTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZenBand.app/ZenBand";
+			};
+			name = Debug;
+		};
+		94D55D142063399C00875475 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 33PV6JQ9EX;
+				INFOPLIST_FILE = ZenBandTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Raza.ZenBandTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZenBand.app/ZenBand";
+			};
+			name = Release;
+		};
+		94D55D162063399C00875475 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 33PV6JQ9EX;
+				INFOPLIST_FILE = ZenBandUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Raza.ZenBandUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZenBand;
+			};
+			name = Debug;
+		};
+		94D55D172063399C00875475 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 33PV6JQ9EX;
+				INFOPLIST_FILE = ZenBandUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Raza.ZenBandUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZenBand;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94D55CE02063399C00875475 /* Build configuration list for PBXProject "ZenBand" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94D55D0D2063399C00875475 /* Debug */,
+				94D55D0E2063399C00875475 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94D55D0F2063399C00875475 /* Build configuration list for PBXNativeTarget "ZenBand" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94D55D102063399C00875475 /* Debug */,
+				94D55D112063399C00875475 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94D55D122063399C00875475 /* Build configuration list for PBXNativeTarget "ZenBandTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94D55D132063399C00875475 /* Debug */,
+				94D55D142063399C00875475 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94D55D152063399C00875475 /* Build configuration list for PBXNativeTarget "ZenBandUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94D55D162063399C00875475 /* Debug */,
+				94D55D172063399C00875475 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 94D55CDD2063399C00875475 /* Project object */;
+}
