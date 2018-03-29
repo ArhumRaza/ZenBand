@@ -7,9 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4DB40EB77AB7AE82C5FF3839 /* Pods_ZenBandUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10285872C86AA2297E906C81 /* Pods_ZenBandUITests.framework */; };
+		6C2221D5C8F4AA8D6EE17F81 /* Pods_ZenBand.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA82CEB8C3076B5378D22ABD /* Pods_ZenBand.framework */; };
+		8DD6F3D4F24CF2620A7D8420 /* Pods_ZenBandTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 700E2B184A5FD736B2E13AC1 /* Pods_ZenBandTests.framework */; };
+		9403B080206C9E2E00C8596A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9403B07F206C9E2D00C8596A /* GoogleService-Info.plist */; };
+		9495D3902069837C00731652 /* Sensors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9495D38F2069837C00731652 /* Sensors.swift */; };
+		9495D3962069BF5F00731652 /* SkinTempController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9495D3952069BF5F00731652 /* SkinTempController.swift */; };
+		9495D3982069BF8300731652 /* StepsTakenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9495D3972069BF8300731652 /* StepsTakenController.swift */; };
 		94D55CE92063399C00875475 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D55CE82063399C00875475 /* AppDelegate.swift */; };
-		94D55CEB2063399C00875475 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D55CEA2063399C00875475 /* FirstViewController.swift */; };
-		94D55CED2063399C00875475 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D55CEC2063399C00875475 /* SecondViewController.swift */; };
+		94D55CEB2063399C00875475 /* HeartRateController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D55CEA2063399C00875475 /* HeartRateController.swift */; };
+		94D55CED2063399C00875475 /* EDAController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D55CEC2063399C00875475 /* EDAController.swift */; };
 		94D55CF02063399C00875475 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94D55CEE2063399C00875475 /* Main.storyboard */; };
 		94D55CF22063399C00875475 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94D55CF12063399C00875475 /* Assets.xcassets */; };
 		94D55CF52063399C00875475 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94D55CF32063399C00875475 /* LaunchScreen.storyboard */; };
@@ -35,10 +42,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		10285872C86AA2297E906C81 /* Pods_ZenBandUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZenBandUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		11E44A1135F14335072AB7E8 /* Pods-ZenBand.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZenBand.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZenBand/Pods-ZenBand.debug.xcconfig"; sourceTree = "<group>"; };
+		2ABDD203352448D5FE9554CF /* Pods-ZenBand.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZenBand.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZenBand/Pods-ZenBand.release.xcconfig"; sourceTree = "<group>"; };
+		2DAA9C7193D93E748B5AC7DE /* Pods-ZenBandTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZenBandTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZenBandTests/Pods-ZenBandTests.debug.xcconfig"; sourceTree = "<group>"; };
+		700E2B184A5FD736B2E13AC1 /* Pods_ZenBandTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZenBandTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		75A5FFAB5C2F21DA7FF3F0EB /* Pods-ZenBandUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZenBandUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZenBandUITests/Pods-ZenBandUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9403B07F206C9E2D00C8596A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9495D38F2069837C00731652 /* Sensors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sensors.swift; sourceTree = "<group>"; };
+		9495D3952069BF5F00731652 /* SkinTempController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkinTempController.swift; sourceTree = "<group>"; };
+		9495D3972069BF8300731652 /* StepsTakenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepsTakenController.swift; sourceTree = "<group>"; };
 		94D55CE52063399C00875475 /* ZenBand.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZenBand.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94D55CE82063399C00875475 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		94D55CEA2063399C00875475 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		94D55CEC2063399C00875475 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		94D55CEA2063399C00875475 /* HeartRateController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartRateController.swift; sourceTree = "<group>"; };
+		94D55CEC2063399C00875475 /* EDAController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EDAController.swift; sourceTree = "<group>"; };
 		94D55CEF2063399C00875475 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		94D55CF12063399C00875475 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		94D55CF42063399C00875475 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +66,9 @@
 		94D55D062063399C00875475 /* ZenBandUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZenBandUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		94D55D0A2063399C00875475 /* ZenBandUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZenBandUITests.swift; sourceTree = "<group>"; };
 		94D55D0C2063399C00875475 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1F1B48567C230DA6F39BE5B /* Pods-ZenBandTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZenBandTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZenBandTests/Pods-ZenBandTests.release.xcconfig"; sourceTree = "<group>"; };
+		E56DFB1428D8D8BFA9F57C99 /* Pods-ZenBandUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZenBandUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZenBandUITests/Pods-ZenBandUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FA82CEB8C3076B5378D22ABD /* Pods_ZenBand.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZenBand.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C2221D5C8F4AA8D6EE17F81 /* Pods_ZenBand.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DD6F3D4F24CF2620A7D8420 /* Pods_ZenBandTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +92,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DB40EB77AB7AE82C5FF3839 /* Pods_ZenBandUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9495D38C2069814100731652 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9495D38F2069837C00731652 /* Sensors.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9495D38D2069814800731652 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9495D38E2069814D00731652 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				94D55CEA2063399C00875475 /* HeartRateController.swift */,
+				94D55CEC2063399C00875475 /* EDAController.swift */,
+				9495D3952069BF5F00731652 /* SkinTempController.swift */,
+				9495D3972069BF8300731652 /* StepsTakenController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		94D55CDC2063399C00875475 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +132,8 @@
 				94D55CFE2063399C00875475 /* ZenBandTests */,
 				94D55D092063399C00875475 /* ZenBandUITests */,
 				94D55CE62063399C00875475 /* Products */,
+				AB5D351768DF1DE434266C41 /* Pods */,
+				DCAE7E696BC09E7308EABAF1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,9 +150,11 @@
 		94D55CE72063399C00875475 /* ZenBand */ = {
 			isa = PBXGroup;
 			children = (
+				9403B07F206C9E2D00C8596A /* GoogleService-Info.plist */,
+				9495D38E2069814D00731652 /* Controller */,
+				9495D38C2069814100731652 /* Models */,
+				9495D38D2069814800731652 /* Views */,
 				94D55CE82063399C00875475 /* AppDelegate.swift */,
-				94D55CEA2063399C00875475 /* FirstViewController.swift */,
-				94D55CEC2063399C00875475 /* SecondViewController.swift */,
 				94D55CEE2063399C00875475 /* Main.storyboard */,
 				94D55CF12063399C00875475 /* Assets.xcassets */,
 				94D55CF32063399C00875475 /* LaunchScreen.storyboard */,
@@ -128,6 +181,29 @@
 			path = ZenBandUITests;
 			sourceTree = "<group>";
 		};
+		AB5D351768DF1DE434266C41 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				11E44A1135F14335072AB7E8 /* Pods-ZenBand.debug.xcconfig */,
+				2ABDD203352448D5FE9554CF /* Pods-ZenBand.release.xcconfig */,
+				2DAA9C7193D93E748B5AC7DE /* Pods-ZenBandTests.debug.xcconfig */,
+				B1F1B48567C230DA6F39BE5B /* Pods-ZenBandTests.release.xcconfig */,
+				E56DFB1428D8D8BFA9F57C99 /* Pods-ZenBandUITests.debug.xcconfig */,
+				75A5FFAB5C2F21DA7FF3F0EB /* Pods-ZenBandUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DCAE7E696BC09E7308EABAF1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA82CEB8C3076B5378D22ABD /* Pods_ZenBand.framework */,
+				700E2B184A5FD736B2E13AC1 /* Pods_ZenBandTests.framework */,
+				10285872C86AA2297E906C81 /* Pods_ZenBandUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +211,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 94D55D0F2063399C00875475 /* Build configuration list for PBXNativeTarget "ZenBand" */;
 			buildPhases = (
+				707C4DC2D98968E891E9F351 /* [CP] Check Pods Manifest.lock */,
 				94D55CE12063399C00875475 /* Sources */,
 				94D55CE22063399C00875475 /* Frameworks */,
 				94D55CE32063399C00875475 /* Resources */,
+				1D13CB1C3DD8B0358049D4A1 /* [CP] Embed Pods Frameworks */,
+				75F68664667FE7B7312F094D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +231,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 94D55D122063399C00875475 /* Build configuration list for PBXNativeTarget "ZenBandTests" */;
 			buildPhases = (
+				D69785809FF67845B6618723 /* [CP] Check Pods Manifest.lock */,
 				94D55CF72063399C00875475 /* Sources */,
 				94D55CF82063399C00875475 /* Frameworks */,
 				94D55CF92063399C00875475 /* Resources */,
+				CC43A3F53A51794882996615 /* [CP] Embed Pods Frameworks */,
+				8B4CD98EE735DAA4F5238F6D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +252,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 94D55D152063399C00875475 /* Build configuration list for PBXNativeTarget "ZenBandUITests" */;
 			buildPhases = (
+				8BD5CA4159A49912600236A1 /* [CP] Check Pods Manifest.lock */,
 				94D55D022063399C00875475 /* Sources */,
 				94D55D032063399C00875475 /* Frameworks */,
 				94D55D042063399C00875475 /* Resources */,
+				85DA7C4C9A577140B24E50F3 /* [CP] Embed Pods Frameworks */,
+				652559AC92C033A1836444E4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -236,6 +321,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				94D55CF52063399C00875475 /* LaunchScreen.storyboard in Resources */,
+				9403B080206C9E2E00C8596A /* GoogleService-Info.plist in Resources */,
 				94D55CF22063399C00875475 /* Assets.xcassets in Resources */,
 				94D55CF02063399C00875475 /* Main.storyboard in Resources */,
 			);
@@ -257,14 +343,171 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1D13CB1C3DD8B0358049D4A1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ZenBand/Pods-ZenBand-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZenBand/Pods-ZenBand-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		652559AC92C033A1836444E4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZenBandUITests/Pods-ZenBandUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		707C4DC2D98968E891E9F351 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZenBand-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75F68664667FE7B7312F094D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZenBand/Pods-ZenBand-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85DA7C4C9A577140B24E50F3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZenBandUITests/Pods-ZenBandUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B4CD98EE735DAA4F5238F6D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZenBandTests/Pods-ZenBandTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8BD5CA4159A49912600236A1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZenBandUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC43A3F53A51794882996615 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZenBandTests/Pods-ZenBandTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D69785809FF67845B6618723 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZenBandTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		94D55CE12063399C00875475 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94D55CED2063399C00875475 /* SecondViewController.swift in Sources */,
+				9495D3962069BF5F00731652 /* SkinTempController.swift in Sources */,
+				94D55CED2063399C00875475 /* EDAController.swift in Sources */,
 				94D55CE92063399C00875475 /* AppDelegate.swift in Sources */,
-				94D55CEB2063399C00875475 /* FirstViewController.swift in Sources */,
+				9495D3902069837C00731652 /* Sensors.swift in Sources */,
+				9495D3982069BF8300731652 /* StepsTakenController.swift in Sources */,
+				94D55CEB2063399C00875475 /* HeartRateController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +671,7 @@
 		};
 		94D55D102063399C00875475 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11E44A1135F14335072AB7E8 /* Pods-ZenBand.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -443,6 +687,7 @@
 		};
 		94D55D112063399C00875475 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2ABDD203352448D5FE9554CF /* Pods-ZenBand.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -458,6 +703,7 @@
 		};
 		94D55D132063399C00875475 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DAA9C7193D93E748B5AC7DE /* Pods-ZenBandTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -475,6 +721,7 @@
 		};
 		94D55D142063399C00875475 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1F1B48567C230DA6F39BE5B /* Pods-ZenBandTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -492,6 +739,7 @@
 		};
 		94D55D162063399C00875475 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E56DFB1428D8D8BFA9F57C99 /* Pods-ZenBandUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -508,6 +756,7 @@
 		};
 		94D55D172063399C00875475 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75A5FFAB5C2F21DA7FF3F0EB /* Pods-ZenBandUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

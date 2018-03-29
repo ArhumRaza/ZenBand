@@ -1,0 +1,6 @@
+framework module Pods_ZenBand {
+  umbrella header "Pods-ZenBand-umbrella.h"
+
+  export *
+  module * { export * }
+}
