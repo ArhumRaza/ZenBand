@@ -8,6 +8,7 @@ target 'ZenBand' do
   # Pods for ZenBand
   pod 'Firebase/Core'
   pod 'Firebase/Database'
+  pod 'Charts'
 
   target 'ZenBandTests' do
     inherit! :search_paths

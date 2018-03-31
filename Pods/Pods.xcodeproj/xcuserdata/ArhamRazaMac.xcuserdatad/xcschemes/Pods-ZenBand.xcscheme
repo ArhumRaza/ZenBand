@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D8565FEF4B4863523E7DFA066937E4AC"
+               BlueprintIdentifier = "C0FA3FADE1A6AF2C0AD84070942CDED8"
                BuildableName = "Pods_ZenBand.framework"
                BlueprintName = "Pods-ZenBand"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -47,7 +47,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D8565FEF4B4863523E7DFA066937E4AC"
+            BlueprintIdentifier = "C0FA3FADE1A6AF2C0AD84070942CDED8"
             BuildableName = "Pods_ZenBand.framework"
             BlueprintName = "Pods-ZenBand"
             ReferencedContainer = "container:Pods.xcodeproj">
