@@ -35,7 +35,7 @@ class HeartRateController: UIViewController {
     let viewTitle: UILabel = {
         let labelView2 = UILabel()
         labelView2.text = "Heart"
-        labelView2.font = UIFont(name:"American Typewriter", size: 40.0)
+        labelView2.font = UIFont(name:"American Typewriter", size: 32.5)
         labelView2.textColor = UIColor(red:0.502, green:0, blue:0.251, alpha:1)
         labelView2.translatesAutoresizingMaskIntoConstraints = false
         labelView2.textAlignment = .left
