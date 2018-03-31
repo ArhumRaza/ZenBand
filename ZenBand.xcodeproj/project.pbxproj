@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		4DB40EB77AB7AE82C5FF3839 /* Pods_ZenBandUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10285872C86AA2297E906C81 /* Pods_ZenBandUITests.framework */; };
 		6C2221D5C8F4AA8D6EE17F81 /* Pods_ZenBand.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA82CEB8C3076B5378D22ABD /* Pods_ZenBand.framework */; };
+		7D4D031520701C3E000DDE37 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7D4D031420701C3E000DDE37 /* GoogleService-Info.plist */; };
 		8DD6F3D4F24CF2620A7D8420 /* Pods_ZenBandTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 700E2B184A5FD736B2E13AC1 /* Pods_ZenBandTests.framework */; };
-		9403B080206C9E2E00C8596A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9403B07F206C9E2D00C8596A /* GoogleService-Info.plist */; };
 		9495D3902069837C00731652 /* Sensors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9495D38F2069837C00731652 /* Sensors.swift */; };
 		9495D3962069BF5F00731652 /* SkinTempController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9495D3952069BF5F00731652 /* SkinTempController.swift */; };
 		9495D3982069BF8300731652 /* StepsTakenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9495D3972069BF8300731652 /* StepsTakenController.swift */; };
@@ -48,7 +48,7 @@
 		2DAA9C7193D93E748B5AC7DE /* Pods-ZenBandTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZenBandTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZenBandTests/Pods-ZenBandTests.debug.xcconfig"; sourceTree = "<group>"; };
 		700E2B184A5FD736B2E13AC1 /* Pods_ZenBandTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZenBandTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		75A5FFAB5C2F21DA7FF3F0EB /* Pods-ZenBandUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZenBandUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZenBandUITests/Pods-ZenBandUITests.release.xcconfig"; sourceTree = "<group>"; };
-		9403B07F206C9E2D00C8596A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7D4D031420701C3E000DDE37 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		9495D38F2069837C00731652 /* Sensors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sensors.swift; sourceTree = "<group>"; };
 		9495D3952069BF5F00731652 /* SkinTempController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkinTempController.swift; sourceTree = "<group>"; };
 		9495D3972069BF8300731652 /* StepsTakenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepsTakenController.swift; sourceTree = "<group>"; };
@@ -150,7 +150,7 @@
 		94D55CE72063399C00875475 /* ZenBand */ = {
 			isa = PBXGroup;
 			children = (
-				9403B07F206C9E2D00C8596A /* GoogleService-Info.plist */,
+				7D4D031420701C3E000DDE37 /* GoogleService-Info.plist */,
 				9495D38E2069814D00731652 /* Controller */,
 				9495D38C2069814100731652 /* Models */,
 				9495D38D2069814800731652 /* Views */,
@@ -321,7 +321,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				94D55CF52063399C00875475 /* LaunchScreen.storyboard in Resources */,
-				9403B080206C9E2E00C8596A /* GoogleService-Info.plist in Resources */,
+				7D4D031520701C3E000DDE37 /* GoogleService-Info.plist in Resources */,
 				94D55CF22063399C00875475 /* Assets.xcassets in Resources */,
 				94D55CF02063399C00875475 /* Main.storyboard in Resources */,
 			);
