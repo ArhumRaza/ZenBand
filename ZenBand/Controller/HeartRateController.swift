@@ -92,8 +92,8 @@ class HeartRateController: UIViewController {
                 print(sensor.bpmHeart as Any, sensor.time as Any)
             }
             
-            //print("Sensor Data:")
-            //print(snapshot)
+            print("Sensor Data:")
+            print(snapshot)
         }, withCancel: nil)
     }
 
