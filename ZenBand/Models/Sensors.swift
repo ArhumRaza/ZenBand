@@ -8,6 +8,8 @@
 
 import UIKit
 
+//var anxietyDetection = Int
+
 class PPG: NSObject {
     
     var bpm: Int

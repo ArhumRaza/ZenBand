@@ -90,8 +90,9 @@ class HeartRateController: UIViewController {
             
             let dictionary = snapshot.value as? [String: AnyObject]
             let sensor = PPG(bpm: (dictionary!["Heart Rate"] as? Int)!, time: (dictionary!["Time"] as? Int)!)
-            print(sensor.bpm as Any, sensor.time as Any)
-            
+            let sensor2 = GSR(gsr: (dictionary!["Galvanic Skin Response"] as? Int)!, time: (dictionary!["Time"] as? Int)!)
+            print("BPM: ",sensor.getBpm() as Any, "\tTime: ", sensor.getTime() as Any)
+            print("GSR: ",sensor2.getGSR() as Any, "\tTime: ", sensor2.getTime() as Any)
 //            if sensor.bpm! > hrLow {
 //
 //            }
