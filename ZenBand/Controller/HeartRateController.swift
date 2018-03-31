@@ -9,9 +9,12 @@
 import UIKit
 import Firebase
 import FirebaseDatabase
+import Charts
 
 class HeartRateController: UIViewController {
     
+    @IBOutlet weak var chtChart: UIView!
+    @IBOutlet weak var txtTextBox: UITextField!
     var ref: DatabaseReference!
     
     var sensor = [Sensors]()
@@ -140,6 +143,9 @@ class HeartRateController: UIViewController {
 
     }
 
+    @IBAction func btnbutton(_ sender: Any) {
+    }
+    
 }
 
 
