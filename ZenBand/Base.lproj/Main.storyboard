@@ -34,7 +34,7 @@
                                     <action selector="btnbutton:" destination="9pv-A4-QxB" eventType="touchUpInside" id="LMC-rn-tvh"/>
                                 </connections>
                             </button>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HZB-Tq-phK">
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HZB-Tq-phK" customClass="LineChartView" customModule="Charts">
                                 <rect key="frame" x="0.0" y="165" width="375" height="205"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
@@ -45,7 +45,7 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Heart Rate" image="HeartRate" id="acW-dT-cKf"/>
                     <connections>
-                        <outlet property="chtChart" destination="HZB-Tq-phK" id="uhx-aM-eZ7"/>
+                        <outlet property="chtChart" destination="HZB-Tq-phK" id="d8c-Ge-eFn"/>
                         <outlet property="txtTextBox" destination="M8P-Jp-Eah" id="e62-PL-UM9"/>
                     </connections>
                 </viewController>
