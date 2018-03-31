@@ -164,14 +164,13 @@ class HeartRateController: UIViewController {
         }
 
         let line1 = LineChartDataSet(values: lineChartEntry, label: "Number") //Here we convert lineChartEntry to a LineChartDataSet
-        line1.colors = [UIColor(red:0.502, green:0, blue:0.251, alpha:1)] //Sets the colour to blue
+        line1.colors = [UIColor(red:0.502, green:0, blue:0.251, alpha:1)] //Sets the colour
 
         let data = LineChartData() //This is the object that will be added to the chart
         data.addDataSet(line1) //Adds the line to the dataSet
 
-
         chtChart.data = data //finally - it adds the chart data to the chart and causes an update
-        chtChart.chartDescription?.text = "My awesome chart" // Here we set the description for the graph
+//        chtChart.chartDescription?.text = "Heart Rate" // Here we set the description for the graph
     }
     
 }
