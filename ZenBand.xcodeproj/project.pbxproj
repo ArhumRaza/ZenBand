@@ -15,6 +15,7 @@
 		9495D3902069837C00731652 /* Sensors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9495D38F2069837C00731652 /* Sensors.swift */; };
 		9495D3962069BF5F00731652 /* SkinTempController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9495D3952069BF5F00731652 /* SkinTempController.swift */; };
 		9495D3982069BF8300731652 /* StepsTakenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9495D3972069BF8300731652 /* StepsTakenController.swift */; };
+		94C62577207547D2005A8B04 /* alphaWaves10Hz.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 94C62576207547D1005A8B04 /* alphaWaves10Hz.mp3 */; };
 		94D55CE92063399C00875475 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D55CE82063399C00875475 /* AppDelegate.swift */; };
 		94D55CEB2063399C00875475 /* HeartRateController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D55CEA2063399C00875475 /* HeartRateController.swift */; };
 		94D55CED2063399C00875475 /* EDAController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D55CEC2063399C00875475 /* EDAController.swift */; };
@@ -54,6 +55,7 @@
 		9495D38F2069837C00731652 /* Sensors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sensors.swift; sourceTree = "<group>"; };
 		9495D3952069BF5F00731652 /* SkinTempController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkinTempController.swift; sourceTree = "<group>"; };
 		9495D3972069BF8300731652 /* StepsTakenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepsTakenController.swift; sourceTree = "<group>"; };
+		94C62576207547D1005A8B04 /* alphaWaves10Hz.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = alphaWaves10Hz.mp3; path = "../../../../../../../../Music/iTunes/iTunes Media/Music/Unknown Artist/Unknown Album/alphaWaves10Hz.mp3"; sourceTree = "<group>"; };
 		94D55CE52063399C00875475 /* ZenBand.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZenBand.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94D55CE82063399C00875475 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		94D55CEA2063399C00875475 /* HeartRateController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartRateController.swift; sourceTree = "<group>"; };
@@ -152,6 +154,7 @@
 		94D55CE72063399C00875475 /* ZenBand */ = {
 			isa = PBXGroup;
 			children = (
+				94C62576207547D1005A8B04 /* alphaWaves10Hz.mp3 */,
 				9403B07F206C9E2D00C8596A /* GoogleService-Info.plist */,
 				9495D38E2069814D00731652 /* Controller */,
 				9495D38C2069814100731652 /* Models */,
@@ -326,6 +329,7 @@
 				94D55CF52063399C00875475 /* LaunchScreen.storyboard in Resources */,
 				9403B080206C9E2E00C8596A /* GoogleService-Info.plist in Resources */,
 				94D55CF22063399C00875475 /* Assets.xcassets in Resources */,
+				94C62577207547D2005A8B04 /* alphaWaves10Hz.mp3 in Resources */,
 				94D55CF02063399C00875475 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

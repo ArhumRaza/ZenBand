@@ -131,6 +131,7 @@ class HeartRateController: UIViewController {
         label.text = "Heart BPM Threshold:"
         label.font = UIFont(name:"American Typewriter", size: 20)
         label.translatesAutoresizingMaskIntoConstraints = false
+        label.backgroundColor = UIColor(red:1, green:1, blue:0.941, alpha:1)
         return label
     }()
     
@@ -141,6 +142,7 @@ class HeartRateController: UIViewController {
         label.textAlignment = .center
         label.font = UIFont(name:"American Typewriter", size: 30)
         label.translatesAutoresizingMaskIntoConstraints = false
+        label.backgroundColor = UIColor(red:1, green:1, blue:0.941, alpha:1)
         return label
     }()
     
@@ -150,6 +152,7 @@ class HeartRateController: UIViewController {
         label.text = "Average Heart BPM:"
         label.font = UIFont(name:"American Typewriter", size: 20)
         label.translatesAutoresizingMaskIntoConstraints = false
+        label.backgroundColor = UIColor(red:1, green:1, blue:0.941, alpha:1)
         return label
     }()
     
@@ -160,6 +163,8 @@ class HeartRateController: UIViewController {
         label.textAlignment = .center
         label.font = UIFont(name:"American Typewriter", size: 30)
         label.translatesAutoresizingMaskIntoConstraints = false
+        label.backgroundColor = UIColor(red:1, green:1, blue:0.941, alpha:1)
+
         return label
     }()
     
@@ -184,6 +189,7 @@ class HeartRateController: UIViewController {
         self.chtChart.translatesAutoresizingMaskIntoConstraints = false
         self.chtChart.drawGridBackgroundEnabled = false
         self.chtChart.animate(xAxisDuration: 2.5)
+        chtChart.rightAxis.enabled = false
         
     }
 
@@ -307,6 +313,7 @@ class HeartRateController: UIViewController {
         var cntr = 0
         var bpm = 0
         var bpmCntr = 0
+        let num = 1
         
         ref = Database.database().reference()
         ref.child("Values").observe(.childAdded, with: { (snapshot) in
@@ -336,6 +343,31 @@ class HeartRateController: UIViewController {
                 self.midLabelValue2.text = String(round(10*bpmAvg)/10)
             }
             
+            if  self.sensor.getAnxietyLevel() == 0 {
+                self.labelNormal.textColor = .green
+                self.labelNormal.font = UIFont.boldSystemFont(ofSize: 20)
+                self.labelModerate.textColor = UIColor(red:0, green:0, blue:0, alpha:0.5)
+                self.labelModerate.font = UIFont.systemFont(ofSize: 20)
+                self.labelHigh.textColor = UIColor(red:0, green:0, blue:0, alpha:0.5)
+                self.labelHigh.font = UIFont.systemFont(ofSize: 20)
+            }
+            if  self.sensor.getAnxietyLevel() == 1 {
+                self.labelNormal.textColor = UIColor(red:0, green:0, blue:0, alpha:0.5)
+                self.labelNormal.font = UIFont.systemFont(ofSize: 20)
+                self.labelModerate.textColor = .orange
+                self.labelModerate.font = UIFont.boldSystemFont(ofSize: 20)
+                self.labelHigh.textColor = UIColor(red:0, green:0, blue:0, alpha:0.5)
+                self.labelHigh.font = UIFont.systemFont(ofSize: 20)
+            }
+            if  self.sensor.getAnxietyLevel() == 2 {
+                self.labelNormal.textColor = UIColor(red:0, green:0, blue:0, alpha:0.5)
+                self.labelNormal.font = UIFont.systemFont(ofSize: 20)
+                self.labelModerate.textColor = UIColor(red:0, green:0, blue:0, alpha:0.5)
+                self.labelModerate.font = UIFont.systemFont(ofSize: 20)
+                self.labelHigh.textColor = .red
+                self.labelHigh.font = UIFont.boldSystemFont(ofSize: 20)
+            }
+            
             if  self.sensor.isReset() {
                 self.numbers.removeAll()
                 self.time.removeAll()
@@ -346,35 +378,10 @@ class HeartRateController: UIViewController {
             
             if  self.sensor.getBpm() > hrLow {
                 bpm =  self.sensor.getBpm()
-                if  self.sensor.getAnxietyLevel() == 0 {
-                    self.labelNormal.textColor = .green
-                    self.labelNormal.font = UIFont.boldSystemFont(ofSize: 20)
-                    self.labelModerate.textColor = UIColor(red:0, green:0, blue:0, alpha:0.5)
-                    self.labelModerate.font = UIFont.systemFont(ofSize: 20)
-                    self.labelHigh.textColor = UIColor(red:0, green:0, blue:0, alpha:0.5)
-                    self.labelHigh.font = UIFont.systemFont(ofSize: 20)
-                }
-                if  self.sensor.getAnxietyLevel() == 1 {
-                    self.labelNormal.textColor = UIColor(red:0, green:0, blue:0, alpha:0.5)
-                    self.labelNormal.font = UIFont.systemFont(ofSize: 20)
-                    self.labelModerate.textColor = .orange
-                    self.labelModerate.font = UIFont.boldSystemFont(ofSize: 20)
-                    self.labelHigh.textColor = UIColor(red:0, green:0, blue:0, alpha:0.5)
-                    self.labelHigh.font = UIFont.systemFont(ofSize: 20)
-                }
-                if  self.sensor.getAnxietyLevel() == 2 {
-                    self.labelNormal.textColor = UIColor(red:0, green:0, blue:0, alpha:0.5)
-                    self.labelNormal.font = UIFont.systemFont(ofSize: 20)
-                    self.labelModerate.textColor = UIColor(red:0, green:0, blue:0, alpha:0.5)
-                    self.labelModerate.font = UIFont.systemFont(ofSize: 20)
-                    self.labelHigh.textColor = .red
-                    self.labelHigh.font = UIFont.boldSystemFont(ofSize: 20)
-                }
-
                 self.numbers.append(Double( self.sensor.getBpm()))
                 self.time.append(Double(cntr))
                 self.updateGraph()
-                cntr += 3
+                cntr += num
                 bpmCntr += bpm
             }
             else {
@@ -384,7 +391,7 @@ class HeartRateController: UIViewController {
                     self.updateGraph()
                 }
                 print("Value was nil")
-                cntr += 3
+                cntr += num
                 bpmCntr += bpm
             }
             
