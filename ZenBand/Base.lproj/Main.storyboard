@@ -54,6 +54,9 @@
                         <viewLayoutGuide key="safeArea" id="O1u-W8-tvY"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="EDA" image="GSR" id="cPa-gy-q4n"/>
+                    <connections>
+                        <outlet property="chtChart" destination="NTq-M8-VZ4" id="0GC-5r-IJY"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
@@ -66,14 +69,36 @@
                     <view key="view" contentMode="scaleToFill" id="Jse-AN-ACU">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="q2n-TR-WK3" customClass="LineChartView" customModule="Charts">
+                                <rect key="frame" x="16" y="113" width="343" height="146"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yS5-Fh-Fvu" customClass="LineChartView" customModule="Charts">
+                                <rect key="frame" x="16" y="408" width="343" height="146"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nA0-W2-9eU" customClass="LineChartView" customModule="Charts">
+                                <rect key="frame" x="16" y="260" width="343" height="146"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="5y3-fq-dou"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Activity" image="Accelerometer" id="pyd-e4-bzo"/>
+                    <tabBarItem key="tabBarItem" title="Dashboard" image="Accelerometer" id="pyd-e4-bzo"/>
+                    <connections>
+                        <outlet property="chtChart" destination="q2n-TR-WK3" id="63i-QM-Zzi"/>
+                        <outlet property="chtChart2" destination="nA0-W2-9eU" id="XVP-2H-GCw"/>
+                        <outlet property="chtChart3" destination="yS5-Fh-Fvu" id="Oil-Lz-gKe"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Iw7-KQ-Ieb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1948" y="542"/>
+            <point key="canvasLocation" x="-1948" y="541.97901049475263"/>
         </scene>
         <!--Skin Temperature-->
         <scene sceneID="7Z4-Am-uhC">
@@ -93,6 +118,9 @@
                         <viewLayoutGuide key="safeArea" id="KtT-0h-uZJ"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Thermometer" image="SkinTemp" id="ayJ-33-4KI"/>
+                    <connections>
+                        <outlet property="chtChart" destination="VuS-85-aFB" id="ipe-SI-Jfa"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="G8q-Ea-JCT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -108,10 +136,10 @@
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBar>
                     <connections>
+                        <segue destination="zh8-y6-wfD" kind="relationship" relationship="viewControllers" id="Y6c-Id-kUj"/>
                         <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
                         <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
                         <segue destination="LUM-Km-qma" kind="relationship" relationship="viewControllers" id="iPc-rV-zJE"/>
-                        <segue destination="zh8-y6-wfD" kind="relationship" relationship="viewControllers" id="Y6c-Id-kUj"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
